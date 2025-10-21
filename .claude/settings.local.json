@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "mcp__chrome-devtools__list_pages",
-      "mcp__chrome-devtools__new_page"
+      "mcp__chrome-devtools__new_page",
+      "Bash(./start-browser.sh:*)",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__click",
+      "mcp__chrome-devtools__evaluate_script"
     ]
   },
   "enableAllProjectMcpServers": true,
